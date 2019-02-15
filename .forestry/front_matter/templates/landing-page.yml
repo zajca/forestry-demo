@@ -11,13 +11,13 @@ fields:
   config:
     required: true
 - type: text
-  label: Hero Heading
-  name: heading
-  default: Belkirk College
-- type: text
   name: sub_heading
   label: Hero Sub heading
   default: Engineering and Health Sciences
+- type: text
+  label: Hero Heading
+  name: heading
+  default: Belkirk College
 - type: file
   name: banner_image
   label: Hero Image
@@ -79,5 +79,12 @@ fields:
   type: text
   hidden: true
   default: home
+- type: select
+  name: _The_key_used_in_your_front_matter_
+  config:
+    source:
+      type: documents
+  label: " The human-friendly label shown above the input field. "
+  description: " Help text that appears above the field (it looks exactly like this) "
 pages:
 - index.md

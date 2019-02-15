@@ -86,5 +86,9 @@ fields:
       type: documents
   label: " The human-friendly label shown above the input field. "
   description: " Help text that appears above the field (it looks exactly like this) "
+- type: boolean
+  label: " The human-friendly label shown above the input field. "
+  name: _the_human-friendly_label_shown_above_the_input_field__
+  description: " Help text that appears above the field (it looks exactly like this) "
 pages:
 - index.md

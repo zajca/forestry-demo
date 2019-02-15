@@ -14,6 +14,7 @@ services:
 - heading: xxx
   description: aaaa
   icon: ''
+_the_human-friendly_label_shown_above_the_input_field__: true
 menu:
   footer:
     identifier: _about
